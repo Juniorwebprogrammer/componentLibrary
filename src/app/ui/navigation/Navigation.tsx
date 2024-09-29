@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid2";
 
-import NavigationProps from "./NavigationInterface";
+import NavigationProps from "../../interface/NavigationInterface";
 
 export default function Navigation({
     columns,

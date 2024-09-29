@@ -1,11 +1,13 @@
 {
-  "name": "components_library",
+  "name": "@junior-turinconweb/components_library",
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "access": "public",
   "scripts": {
     "prepare": "npm run build",
-    "build": "tsc"
+    "build": "tsc",
+    "dev:test": "NEXT_PUBLIC_TEST_PAGE=true next dev"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",

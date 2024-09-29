@@ -1,20 +1,9 @@
 import { SxProps } from "@mui/material/styles";
 
-type SizeOptions = {
-    sx?: number;
-    sm?: number;
-    md?: number;
-    lg?: number;
-    xl?: number;
-};
+// types
 
-type ColumnsOptions = {
-    sx?: number;
-    sm?: number;
-    md?: number;
-    lg?: number;
-    xl?: number;
-};
+import { SizeOptions } from "@/app/types/SizeOptions";
+import { ColumnsOptions } from "@/app/types/ColumnsOptions";
 
 export default interface NavigationProps {
     columns: ColumnsOptions;
