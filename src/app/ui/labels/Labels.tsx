@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import LabelsInterface from "@/app/interface/LabelsInterface";
+import LabelsInterface from "../../interface/LabelsInterface";
 
 export default function Labels({
     variant,

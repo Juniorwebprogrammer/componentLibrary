@@ -2,8 +2,8 @@ import { SxProps } from "@mui/material/styles";
 
 // types
 
-import { SizeOptions } from "@/app/types/SizeOptions";
-import { ColumnsOptions } from "@/app/types/ColumnsOptions";
+import { SizeOptions } from "../types/SizeOptions";
+import { ColumnsOptions } from "../types/ColumnsOptions";
 
 export default interface NavigationProps {
     columns: ColumnsOptions;
