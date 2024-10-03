@@ -8,7 +8,6 @@ export default function IconButtonComponent({
     disabled,
     loading,
     sizeLoading,
-    textLoading,
     startIcon,
     endIcon,
     children,
