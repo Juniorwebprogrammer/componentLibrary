@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import RootLayout from '../app/layout';
 
@@ -5,10 +6,10 @@ import RootLayout from '../app/layout';
 
 
 const TestPage = () => {
+
     return (
         <RootLayout>
             <div>
-                <h1>Test Page</h1>
             </div>
         </RootLayout>
     );
