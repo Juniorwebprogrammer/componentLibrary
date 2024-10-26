@@ -1,6 +1,6 @@
 {
   "name": "@junior-turinconweb/components_library",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "access": "public",
@@ -10,10 +10,13 @@
     "dev:test": "NEXT_PUBLIC_TEST_PAGE=true next dev"
   },
   "dependencies": {
+    "@coreui/coreui": "^5.1.2",
+    "@coreui/react": "^5.4.0",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.2",
-    "@mui/material": "^6.1.1",
+    "@mui/lab": "^6.0.0-beta.11",
+    "@mui/material": "^6.1.3",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18"

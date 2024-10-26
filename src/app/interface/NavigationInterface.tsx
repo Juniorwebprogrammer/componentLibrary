@@ -12,6 +12,7 @@ export default interface NavigationProps {
     leftContent: React.ReactNode;
     centerContent: React.ReactNode;
     rightContent: React.ReactNode;
+    backgroundColor?: string;
     sxContainer?: SxProps;
     sxItemLeftContainer?: SxProps;
     sxItemCenterContainer?: SxProps;

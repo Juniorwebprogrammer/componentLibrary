@@ -8,14 +8,18 @@ export default function Navigation({
     spacing,
     leftContent, 
     centerContent, 
-    rightContent, 
+    rightContent,
+    backgroundColor, 
     sxContainer,
     sxItemLeftContainer,
     sxItemCenterContainer,
     sxItemRightContainer
 }: NavigationProps) {
     return (
-        <Grid container columns={columns} sx={sxContainer} spacing={spacing}>
+        <Grid container columns={columns} spacing={spacing} sx={{
+            ...sxContainer,
+            backgroundColor: backgroundColor
+        }}>
             <Grid size={size} sx={sxItemLeftContainer}>
                 {leftContent}
             </Grid>

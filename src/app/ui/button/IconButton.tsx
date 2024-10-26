@@ -11,6 +11,7 @@ export default function IconButtonComponent({
     startIcon,
     endIcon,
     children,
+    onClick,
     sxIconButton
 }: IconButtonInterface) {
     return (
@@ -18,6 +19,7 @@ export default function IconButtonComponent({
             color={color}
             size={size}
             disabled={loading || disabled}
+            onClick={onClick}
             sx={sxIconButton}
         >
             {loading ? (

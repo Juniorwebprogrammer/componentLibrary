@@ -10,5 +10,6 @@ export default interface IconButtonInterface {
     textLoading?: string;
     startIcon?: React.ReactNode;
     endIcon?: React.ReactNode;
+    onClick?: () => void;
     sxIconButton?: SxProps;
 };
